@@ -1,7 +1,5 @@
 import { useFetchJobImages } from "@/api/queries/fetch-job-images";
-import { Button } from "@/components/ui/button";
 import { imageUrl } from "@/lib/utils";
-import { Download } from "lucide-react";
 import Image from "next/image";
 import React, { useMemo } from "react";
 

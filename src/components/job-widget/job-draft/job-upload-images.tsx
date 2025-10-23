@@ -3,9 +3,7 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { useEffect, useState } from "react";
 import Image from "next/image";
-import { supabase } from "@/supabase/instance";
 import { Tables } from "@/types/database";
 import { useJobUploadImages } from "@/api/mutations/job-upload-images";
 import { Button } from "@/components/ui/button";
